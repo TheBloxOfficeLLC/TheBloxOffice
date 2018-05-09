@@ -1,6 +1,14 @@
 > This is a temporary “Quick Guide”.
 > It is best to use Ubuntu for the OS and VS Code for the text-editor.
 
+## Basic bash commands
+
+`npm install` - Use this to install dependencies.
+`npm start` - Use this to run the `node server.js` command.
+`npm server` - Use this to run nodemon which will run a server that will monitor any changes.
+
+---
+
 * Update:
 
 ```bash
@@ -44,6 +52,8 @@ sudo apt-get install git
 * Spelling Checker for Visual Studio Code
 * Git History, Search and More (including git log)
 * GitLens
+
+---
 
 ## Node
 
