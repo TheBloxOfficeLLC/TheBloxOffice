@@ -1,11 +1,11 @@
 > This is a temporary “Quick Guide”.
 > It is best to use Ubuntu for the OS and VS Code for the text-editor.
 
-## Basic bash commands
+## Basic Commands
 
-`npm install` - Use this to install dependencies.
-`npm start` - Use this to run the `node server.js` command.
-`npm server` - Use this to run nodemon which will run a server that will monitor any changes.
+* `npm install` - Use this to install dependencies.
+* `npm start` - Use this to run the `node server.js` command.
+* `npm server` - Use this to run nodemon which will run a server that will monitor any changes.
 
 ---
 
