@@ -1,0 +1,34 @@
+{
+  "name": "thebloxoffice",
+  "version": "1.0.0",
+  "description": "House and Techno tickets empowering fans to produce their own events. We ask the questions. The community makes the decisions. Together we create the rave.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBloxOfficeLLC/TheBloxOffice.git"
+  },
+  "author": "Michael Frieze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheBloxOfficeLLC/TheBloxOffice/issues"
+  },
+  "homepage": "https://github.com/TheBloxOfficeLLC/TheBloxOffice#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "mongoose": "^5.0.17",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
