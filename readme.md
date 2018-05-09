@@ -5,7 +5,7 @@
 
 * `npm install` - Use this to install dependencies.
 * `npm start` - Use this to run the `node server.js` command.
-* `node server` - Use this to run nodemon which will run a server that will monitor any changes.
+* `npm run server` - Use this to run nodemon which will run a server that will monitor any changes.
 
 ---
 
