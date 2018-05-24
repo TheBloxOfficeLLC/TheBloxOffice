@@ -1,8 +1,7 @@
 {
   "name": "thebloxoffice",
   "version": "0.1.1",
-  "description":
-    "House and Techno tickets empowering fans to produce their own events. We ask the questions. The community makes the decisions. Together we create the rave.",
+  "description": "House and Techno tickets empowering fans to produce their own events. We ask the questions. The community makes the decisions. Together we create the rave.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
