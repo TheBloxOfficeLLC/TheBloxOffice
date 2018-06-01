@@ -1,7 +1,7 @@
 > This is a temporary “Quick Guide”.
 > It is best to use Ubuntu for the OS and VS Code for the text-editor.
 
-## Basic Commands
+## General NPM Commands
 
 * `npm install` - Use this to install dependencies.
 * `npm start` - Use this to run the `node server.js` command.
@@ -28,6 +28,8 @@ Now you can use the following commands to use lint:
 > If you decide to delete the `node_modules` directory to reinstall all dependencies, make sure you delete the `.eslintrc.json` file as well.
 
 ---
+
+## Ubuntu Workstation Configuration
 
 * Update:
 
