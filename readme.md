@@ -3,43 +3,35 @@
 
 ## General NPM Commands
 
-* `npm install` - Use this to install dependencies.
-* `npm start` - Use this to run the `node server.js` command.
-* `npm run server` - Use this to run nodemon which will run a server that will monitor any changes.
+- `npm install` - Use this to install dependencies.
+- `npm start` - Use this to run the `node server.js` command.
+- `npm run server` - Use this to run nodemon which will run a server that will monitor any changes.
 
 ## How To Lint
 
 Lint is a command line tool that analyzes source code to flag programming errors, bugs, stylistic errors, and suspicious constructs.
 We are only going to use lint for javascript files.
 
-Every time you create the `node_modules` directory with the command `npm install`, you will have to initialize lint with:
+You can use the following commands to use lint:
 
-```
-npm run lint-init
-```
+- `npm run lint-all` - This will use lint on all `js` and `jsx` files.
+- `npm run lint "YourFile.js"` - This will use lint on a specific file. One again, you can also use lint on `jsx` files as well.
 
-Go through the config. Choose the `AIRBNB` popular configuration, say yes to using react, and `JSON` format.
-
-Now you can use the following commands to use lint:
-
-* `npm run lint-all` - This will use lint on all `js` and `jsx` files.
-* `npm run lint "YourFile.js"` - This will use lint on a specific file. One again, you can also use lint on `jsx` files as well.
-
-> If you decide to delete the `node_modules` directory to reinstall all dependencies, make sure you delete the `.eslintrc.json` file as well.
+---
 
 ---
 
 ## Ubuntu Workstation Configuration
 
-* Update:
+- Update:
 
 ```bash
 sudo apt-get update
 sudo apt-get upgrade
 ```
 
-* Adjust Date & Time
-* Install Git:
+- Adjust Date & Time
+- Install Git:
 
 ```bash
 sudo apt-get install git
@@ -62,18 +54,18 @@ sudo apt-get install git
 
 ### Extensions
 
-* Bracket Pair Colorizer
-* ES7 React/Redux/React-Native/JS snippets
-* Prettier formatter for Visual Studio Code
-* Live Server (just to help develop the theme)
-* Node.js Modules Intellisense
+- Bracket Pair Colorizer
+- ES7 React/Redux/React-Native/JS snippets
+- Prettier formatter for Visual Studio Code
+- Live Server (just to help develop the theme)
+- Node.js Modules Intellisense
 
 ### Optional Extensions
 
-* Auto Close Tag
-* Spelling Checker for Visual Studio Code
-* Git History, Search and More (including git log)
-* GitLens
+- Auto Close Tag
+- Spelling Checker for Visual Studio Code
+- Git History, Search and More (including git log)
+- GitLens
 
 ---
 
@@ -83,8 +75,8 @@ sudo apt-get install git
 
 > The best way to install node on ubuntu is using nvm. If you are on macOS or Windows then just use the installer. Do not use the package manger `apt` on ubuntu.
 
-* How to installing using NVM:
-* Use bash instead of ZSH:
+- How to installing using NVM:
+- Use bash instead of ZSH:
 
 ```bash
 exec bash
@@ -117,7 +109,7 @@ It will install the software into a subdirectory of your home directory at `~/.n
 
 To gain access to the nvm functionality, you'll need to log out and log back in again, or you can source the ~/.profile file so that your current session knows about the changes:
 
-* /If you use ZSH, now we need to switch back to ZSH/ - _OPTIONAL_
+- /If you use ZSH, now we need to switch back to ZSH/ - _OPTIONAL_
 
 ```bash
 exec zsh
@@ -187,4 +179,4 @@ sudo ln -s "$NVM_DIR/versions/node/$(nvm version)/bin/node" "/usr/local/bin/node
 sudo ln -s "$NVM_DIR/versions/node/$(nvm version)/bin/npm" "/usr/local/bin/npm"
 ```
 
-* This makes npm and node available to all users.
+- This makes npm and node available to all users.
