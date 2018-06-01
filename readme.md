@@ -7,6 +7,24 @@
 * `npm start` - Use this to run the `node server.js` command.
 * `npm run server` - Use this to run nodemon which will run a server that will monitor any changes.
 
+## How To Lint
+
+Lint is a command line tool that analyzes source code to flag programming errors, bugs, stylistic errors, and suspicious constructs.
+We are only going to use lint for javascript files.
+
+Every time you create the `node_modules` directory with the command `npm install`, you will have to initialize lint with:
+
+```
+npm run lint-init
+```
+
+Go through the config. Choose the `AIRBNB` popular configuration, say yes to using react, and `JSON` format.
+
+Now you can use the following commands to use lint:
+
+* `npm run lint-all` - This will use lint on all `js` and `jsx` files.
+* `npm run lint "YourFile.js"` - This will use lint on a specific file. One again, you can also use lint on `jsx` files as well.
+
 ---
 
 * Update:

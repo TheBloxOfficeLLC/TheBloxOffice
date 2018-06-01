@@ -2,6 +2,7 @@
 data/
 .idea
 package-lock.json
+.eslintrc.json
 
 # Logs
 logs
