@@ -25,6 +25,8 @@ Now you can use the following commands to use lint:
 * `npm run lint-all` - This will use lint on all `js` and `jsx` files.
 * `npm run lint "YourFile.js"` - This will use lint on a specific file. One again, you can also use lint on `jsx` files as well.
 
+> If you decide to delete the `node_modules` directory to reinstall all dependencies, make sure you delete the `.eslintrc.json` file as well.
+
 ---
 
 * Update:
