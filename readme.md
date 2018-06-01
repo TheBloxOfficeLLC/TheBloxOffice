@@ -12,10 +12,31 @@
 Lint is a command line tool that analyzes source code to flag programming errors, bugs, stylistic errors, and suspicious constructs.
 We are only going to use lint for javascript files.
 
-You can use the following commands to use lint:
+Every time you create the `node_modules` directory with the command `npm install`, you will have to initialize lint with:
+
+```
+npm run lint-init
+```
+
+Go through the config. Choose the `AIRBNB` popular configuration, say yes to using react, and `JSON` format.
+
+Now you can use the following commands to use lint:
 
 - `npm run lint-all` - This will use lint on all `js` and `jsx` files.
 - `npm run lint "YourFile.js"` - This will use lint on a specific file. One again, you can also use lint on `jsx` files as well.
+
+> If you decide to delete the `node_modules` directory to reinstall all dependencies, make sure you delete the `.eslintrc.json` file as well.
+
+## How To Use Prettier
+
+Prettier is an opinionated code formatter. You can find it [here](https://prettier.io/).
+This is only used for `js` and `jsx` files.
+
+To run prettier (this will format all `js` and `jsx` files):
+
+```
+npm run format
+```
 
 ---
 
