@@ -1,8 +1,7 @@
 {
   "name": "thebloxoffice",
   "version": "0.1.1",
-  "description":
-    "House and Techno tickets empowering fans to produce their own events. We ask the questions. The community makes the decisions. Together we create the rave.",
+  "description": "House and Techno tickets empowering fans to produce their own events. We ask the questions. The community makes the decisions. Together we create the rave.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +10,8 @@
     "lint-init": "./node_modules/.bin/eslint --init",
     "lint-all": "./node_modules/.bin/eslint **/*.{js,jsx} --quiet",
     "lint": "./node_modules/.bin/eslint --quiet",
-    "format": "prettier --write --single-quote --print-width=120 --parser=flow --tab-width=2 **/*.{js,jsx}"
+    "format-all": "prettier --write --single-quote --print-width=120 --parser=flow --tab-width=2 **/*.{js,jsx}",
+    "format": "prettier --write --single-quote --print-width=120 --parser=flow --tab-width=2"
   },
   "repository": {
     "type": "git",
@@ -38,7 +38,7 @@
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.8.2",
+    "eslint-plugin-react": "^7.9.1",
     "nodemon": "^1.17.4",
     "prettier": "^1.13.4"
   }
